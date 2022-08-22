@@ -9,63 +9,72 @@
 #+OPTIONS: num:nil
 #+REVEAL_EXTRA_CSS: org.css
 
-#+TITLE: SunPy: Python for Solar Physics
+#+TITLE: SunPy: The Project in 2022
 #+AUTHOR: Stuart Mumford
 #+REVEAL_TITLE_SLIDE: <h3>%t</h3>
 #+REVEAL_TITLE_SLIDE: <h4>%a</h4>
 #+REVEAL_TITLE_SLIDE: <a href="https://aperio.software"><img style='float: left; width: 30%%; margin-top: 100px; height: 25%%;' src='images/aperio.svg'/></a><a href="https://sunpy.org"><img style='float: right; width: 30%%; margin-top: 100px; height: 25%%; margin-right: 5%%;' src='images/sunpy.svg'/></a>
 
-* Me
+* SunPy
 
-#+REVEAL_HTML: <div class='left'>
+#+BEGIN_QUOTE
+The community-developed, free and open-source solar data analysis environment for Python.
+#+END_QUOTE
 
-Find me online:
+* The Realm
 
-- [[http://stuartmumford.uk][stuartmumford.uk]]
-- [[https://matrix.to/#/@cadair:cadair.com][@cadair:cadair.com]] on Matrix
-- [[https://github.com/Cadair][@Cadair]] on GitHub
-- [[https://twitter.com/stuartmumford][@stuartmumford]] on Twitter
+** Core Package
 
-#+REVEAL_HTML: </div>
+[[https://github.com/sunpy/sunpy/graphs/contributors?from=2021-08-22&to=2022-08-22&type=c][Commits in the last 12 months]]
 
-#+REVEAL_HTML: <div class='right'>
+[[./images/core.png]]
 
-#+attr_html: :width 500px
-[[./images/cadair.jpg]]
+** The Sponsored Packages
 
-#+REVEAL_HTML: </div>
+- ndcube
+- drms
+- sunraster
+- sunkit-image
+- pyflct
+- radiospectra
 
-# Some Maths
-* Maths!
 
-${n! \over k!(n-k)!} = {n \choose k}$
+- sunpy-soar
+- sunkit-pyvista
+- sunxspex
+- sunkit-dem
 
-\begin{equation}
-x=\sqrt{b}
-\end{equation}
+** The Website
+** The Package Template
+** Ablog
+** Misc
 
-If $a^2=b$ and \( b=2 \), then the solution must be either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
+- benchmarks
+- figure tests
+- vcr cassettes
+- data
+- mpl-animators
 
-* Code example with Babel
+* People
 
-#+begin_src python :session example :exports both
-  msg = "Hello World"
+Lead Developer - Stuart Mumford
 
-  msg
-#+end_src
+Deputy Lead Developer - Will Barnes
 
-#+RESULTS:
-: Hello World
+Communication and Education Lead - Laura Hayes
 
-# AIA
-*
-  :PROPERTIES:
-  :reveal_background: ./images/fulldiskmulticolor.jpg
-  :reveal_background_trans: slide
-  :END:
+Summer of Code Administrator - David Pérez-Suárez
 
-# DKIST
-*
-  :PROPERTIES:
-  :reveal_extra_attr: data-background-video="" data-background-video-loop=true
-  :END:
+Lead Newcomer Mentor - *Role Unfilled*
+
+Continuous Integration Maintainer - Conor MacBride
+
+Release Manager - David Stansby
+
+Webmaster - *Role Unfilled*
+
+Affiliated Package Liaison - *Role Unfilled*
+
+** Subpackage maintainers
+
+[[./images/subpackage.png]]

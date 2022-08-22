@@ -2,7 +2,7 @@
 
 index=./talk.org
 
-emacsversion=$(emacs --version | tr " " "\n" | sed -n 3p | sed 's|\(.*\)\..*|\1|')
+emacsversion=$(emacs --version | tr " " "\n" | sed -n 3p)
 oxreveal=$(find ~/.emacs.d/elpa/$emacsversion/develop/ -type d -name "ox-reveal-*" -print -quit)
 
 progn="(progn
