@@ -20,3 +20,4 @@ You can make multiplex work by following these steps:
 3) Add `multiplex` to the plugins variable.
 4) Optional: Change the `index.html` symlink to point at `talk_client.html`
 5) Profit
+
